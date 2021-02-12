@@ -6,13 +6,13 @@ Client
 
 - [ ] Label Sliders
 - [ ] Color Sliders
-  - [ ] Change colour based on value?!
+  - [x] Change colour based on value?!
 - [ ] Add listener for instant update
-- [ ] Add API Call
+- [x] Add API Call
 
 Stretch
 
-- [ ] Call API on page load to get current state
+- [x] Call API on page load to get current state
 - [ ] Add colour picker
 - [ ] FXs
 - [ ] Is there a better way to do this? Stream with WebRTC?!
@@ -22,6 +22,6 @@ Backend
 - [ ] DMZ / Port for RPi 4
 - [x] DYNdns?
 - [ ] Write API
-  - [ ] Set colour
+  - [x] Set colour
   - [ ] Set fx
-  - [ ] Get current status
+  - [x] Get current status
