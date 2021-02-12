@@ -3,14 +3,14 @@ const { Control } = require("magic-home");
 
 let address;
 
-let discovery = new Discovery();
-discovery
-  .scan(500)
-  .then((devices) => {
-    console.log(devices);
-    address = devices[0].address;
-  })
-  .then(turnOff());
+// let discovery = new Discovery();
+// discovery
+//   .scan(500)
+//   .then((devices) => {
+//     console.log(devices);
+//     address = devices[0].address;
+//   })
+//   .then(turnOff());
 
 function turnOff() {
   let light = new Control("192.168.0.66");
